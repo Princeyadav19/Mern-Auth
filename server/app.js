@@ -26,5 +26,5 @@ app.use(require('./router/auth.js'))
 // }
 
 app.listen(PORT,()=>{
-    console.log('server running at 5000')
+    console.log(`server running at ${PORT}`)
 })
